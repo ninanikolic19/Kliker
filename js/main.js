@@ -51,7 +51,7 @@ $(document).ready(function() {
 
     let stranica = window.location.pathname;
 
-	if(stranica == '/sajt/' || stranica == '/sajt/index.html') {
+	if(stranica == '/' || stranica == '/index.html') {
 		ispisDizajnera();
 	}
 
